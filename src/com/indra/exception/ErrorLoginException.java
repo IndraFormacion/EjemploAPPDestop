@@ -15,6 +15,7 @@ public class ErrorLoginException extends Exception{
 
 	public ErrorLoginException(String mensaje) {
 		super(mensaje);
+		System.out.println(mensaje);
 		System.exit(0);
 	}
 }
